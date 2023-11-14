@@ -1,0 +1,43 @@
+/* STYLE SHEET FOR CONTAINERS ############################################################################################################################################# */
+
+/* nav containers ======================================== */
+nav.navcontainer {
+    max-width: 100em;
+    padding-top: 1%;
+    margin: 0 auto;
+    background-color: rgba(47, 41, 65, 0.699);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ nav.navcontainer a:hover {
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    text-shadow: 1px -1px 0 black;
+ }
+ 
+ nav.navcontainer a:hover {
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+    text-shadow: 1px -1px 0 black;
+ }
+ 
+ .container {
+    max-width: 100em;
+    padding-top: 1%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.205);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ 
+ .container h1 {
+    padding-top: 1%;
+ }
+ 
+ 
