@@ -40,4 +40,41 @@ nav.navcontainer {
     padding-top: 1%;
  }
  
- 
+/*Blog content ===============================================================*/
+
+ .blogbox {
+  width: 60vw;
+  height: 30vh;
+  padding: 5vh;
+  border: 1vh solid rgba(255, 255, 255, 0.763);
+  display: block;
+  position: relative;
+  margin: auto;
+  background-color: rgba(12, 38, 95, 0.782);
+ }
+
+ .emptyspace {
+  display: block;
+  height: 1vh;
+  padding-top: 1vh;
+ }
+
+  .emptyspacetop {
+  display: block;
+  height: 12vh;
+  padding-top: 1vh;
+ }
+
+ .blogheader {
+  font-size: 5vh;
+  color: white;
+  position: relative;
+  bottom: 5vh;
+ }
+
+  .blogcontent {
+  font-size: 3vh;
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 5vh;
+ }
