@@ -1,0 +1,77 @@
+/*Blog content ===============================================================*/
+
+.blogbox {
+width: 60vw;
+height: 30vh fit-content;
+padding: 5vh;
+border: 1vh solid rgba(255, 255, 255, 0.763);
+display: block;
+position: relative;
+margin: auto;
+background-color: rgba(44, 48, 56, 0.782);
+}
+
+.emptyspace {
+display: block;
+height: 1vh;
+padding-top: 1vh;
+}
+
+.emptyspacetop {
+display: block;
+height: 12vh;
+padding-top: 1vh;
+}
+
+.emptyspacebottom {
+display: block;
+height: 5vh;
+padding-top: 1vh;
+}
+
+.blogheader {
+font-size: 2.5vh;
+color: white;
+position: relative;
+bottom: 5vh;
+font-weight: bold;
+}
+
+.blogcontent, .blogcontent2 {
+display: inline-block;
+font-size: 2vh;
+color: rgb(255, 255, 255);
+position: relative;
+bottom: 5vh;
+word-wrap: break-word;
+word-break: break-word;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    color: white;
+}
+
+.blogcontent2 {
+    display: inline-block;
+    max-width: 25vw;
+    padding: 5vh;
+    word-wrap: break-word;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.blogbox img {
+display: inline-block;
+height: 30%;
+width: 30%;
+object-fit: contain;
+}
+
+.skiplink {
+    text-decoration: none;
+    color: white;
+}
