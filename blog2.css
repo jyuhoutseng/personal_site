@@ -5,7 +5,6 @@ width: 60vw;
 height: 30vh fit-content;
 padding: 5vh;
 border: 1vh solid rgba(255, 255, 255, 0.763);
-display: block;
 position: relative;
 margin: auto;
 background-color: rgba(44, 48, 56, 0.782);
@@ -37,48 +36,26 @@ bottom: 5vh;
 font-weight: bold;
 }
 
-.blogcontent, .blogcontent2 {
-display: inline-block;
-font-size: 2vh;
-color: rgb(255, 255, 255);
-position: relative;
-bottom: 5vh;
-word-wrap: break-word;
-word-break: break-word;
-}
-
-figure {
-    display: inline-block;
-}
-
-figcaption {
-    color: white;
-}
-
-.blogcontent2 {
-    display: inline-block;
-    max-width: 25vw;
-    padding: 5vh;
-    word-wrap: break-word;
-    white-space: normal;
-    word-break: break-word;
-}
-
-.blogbox img {
-display: inline-block;
-height: 30%;
-width: 30%;
-object-fit: contain;
-}
-
 .skiplink {
     text-decoration: none;
     color: white;
 }
 
-.gallery {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+.gallery ,figure, .blogcontent2{
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 5px;
+    width: 200px;
+}
+
+.gallery img, figure img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.blogcontent2, .blogcontent, figcaption, .desc {
+    color: white;
+    border: none;
+    width: 100%;
 }
