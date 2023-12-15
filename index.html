@@ -4,11 +4,14 @@
       <title>Jyuhout S. Site</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width" intial-scale="1.0">
-      <!-- <script src="modernizr.custom.40753.js"></script> -->
+      <script src="clock.js"></script>
       <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="main.css">
+      <link rel="icon" type="image/x-icon" href="./images/favicon.png">
    </head>
-   <p class="skipnavigation"><a href="home.html">Skip navigation</a></p>    
+   
+   <p class="skipnavigation"><a href="index.html">Skip navigation</a></p>   
+    
    <nav class="sitenavigation">
         <h1><a href="index.html">Jyuhout Seng's Site</a></h1>
             <h3 class="summary">My personal site for IT240</h3>  
@@ -17,12 +20,13 @@
         <p><a href="about.html">About</a></p>
         <p><a href="blog.html">Blog</a></p>
         <p><a href="contact.html">Contact</a></p>
-        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     </nav>
   
+    <!--Used to add extra padding in the website and breaks up the code for ME to better read it-->
     <div class="emptyspace">
         <p></p>
     </div>
+
 
     <div class="gradient"></div>
    <body>
@@ -31,13 +35,33 @@
                 <p>Welcome to my website! Click a button below:</p>
             </div>
             <div class="mainnav">
-                <a href="home.html" class="buttons">Home Page</a>
+                <a href="index.html" class="buttons">Home Page</a>
                 <a href="projects.html" class="buttons">My Projects</a>
                 <a href="about.html" class="buttons">About Me</a>
                 <a href="blog.html" class="buttons">My Blog</a>
                 <a href="contact.html" class="buttons">Contact</a>
+
+                <!---Last modified button (this needs to be in the container bc otherwise i cant click it and i dont know how to fix that ;__;)-->
+                <div id="lastmod" class="lastmod">
+                </div>
+                <button onclick="lastedit()" class="lastmodbutton">last updated</button>
+
            </div>
         </div>
+
+        <!--Clock on the homepage-->
+
+        <div class="clock">
+                <span id="hours">00</span>
+                <span>:</span>
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+                <span id="zone">est</span>
+        </div>
+
+
+
         <div class="bgimg"></div>
    </body>
 
@@ -46,11 +70,14 @@
         <p></p>
     </div>
 
+
+
    <footer>
         <nav class="socialnav">
             <p class="instagram"><a href="https://www.instagram.com/fishbunn/" target="_blank">Instagram</a> </p>
             <p>&#8226;</p>
-            <p class="youtube"><a href="https://www.youtube.com/@fishbunn" target="_blank"> Youtube</a></p>
+            <!--originally i was going to use my YT but i decided against it, the class name is because im too lazy to change in the rest of the code (css)-->
+            <p class="youtube"><a href="https://www.linkedin.com/in/jyuhout-seng-1343862a2" target="_blank">Linkedin</a></p>
         </nav>
     </footer>
 

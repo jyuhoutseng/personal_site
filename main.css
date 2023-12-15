@@ -155,7 +155,6 @@ h2 {
 
 .buttons {
    background-color: rgba(54, 39, 109, 0.63);
-   border: none;
    color: white;
    padding: 15px 32px;
    text-align: center;
@@ -289,6 +288,48 @@ p.skipnavigation a:focus {
    left: auto;
    right: 0.4em;
    z-index: 2;
+}
+
+
+/* clock ===============================================================================================*/
+
+.clock {
+   font-family: Arial, Helvetica, sans-serif;
+   color: white; 
+   font-weight: bold; 
+   position: absolute;
+   top: 50%; 
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 70px;
+   z-index: 1;
+}
+
+.lastmodbutton {
+   background-color: rgba(54, 39, 109, 0.63);
+   color: white;
+   padding: 0.2vw 0.4vh;
+   text-align: center;
+   text-decoration: none;
+   border: 2px solid white;
+}
+
+.lastmodbutton:hover {
+   background-color: rgba(216, 216, 255, 0.144);
+   color: white;
+ }
+
+.lastmodbutton, .lastmod{
+   position: absolute;
+   top: 150%; 
+   left: 50%;
+   transform: translate(-50%, 0%);
+
+}
+
+.lastmod{
+   color: white;
+   top: 225%;
 }
 
 /* print styles */
