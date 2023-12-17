@@ -15,6 +15,7 @@
    padding-bottom: 20px;
 }
 
+/*DEPRICATED / WAS BROKEN AT TIME so i got rid of it*/
 .aboutpic {
    position: relative; display: inline-block;
    float: right;
@@ -23,6 +24,8 @@
    border-radius: 50%;
    z-index: 2;
 }
+
+/*TABLE STUFF=====================================*/
 
 .table{
    bottom: 160px;
@@ -57,6 +60,8 @@ td {
 .label {
    font-size: 25px;
 }
+
+/*about page setup======================something is broken but im not sure what...?*/
 
 .bgimg {
    top: 0px;

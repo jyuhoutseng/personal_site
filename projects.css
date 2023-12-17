@@ -35,6 +35,8 @@
    padding-bottom: 1%;
 }
 
+/** DEPRICATED CODE (was orginally going to do something more dynamic but ehh it was a pain to figure out what I wanted to put in this site**/
+
 .hiatus {
    color: yellow;
    background-color: rgb(204, 115, 115);
@@ -57,6 +59,7 @@
    padding: 0.1em;
 }
 
+/** END OF DEPRICATED CODE########################################################################### */
 
 nav.workslinks {
    background-color: rgb(47, 41, 65);
@@ -85,9 +88,4 @@ nav.workslinks a:active {
    position: relative;
    top: 1px;
    left: 1px;
-}
-
-/* Projects */
-.pkah{
-
 }

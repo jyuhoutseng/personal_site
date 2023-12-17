@@ -1,7 +1,12 @@
-/* form styles */
+   
+.bgimg{   
+   filter: blur(4px);
+   -webkit-filter: blur(0px);
+}
+
 form {
     position: absolute;
-    right: 35%;
+    right: 39%;
     top: 150px;
     max-width: 800px;
     background-color: rgba(9, 117, 189, 0.123);
@@ -13,16 +18,22 @@ form {
     color: white;
  }
  
- /* fieldset styles */
  fieldset {
     margin: 0 0 1em 1em;
  }
  .submitbutton {
     margin-bottom: 0;
     text-align: center;
+    border: none;
  }
  
- /* field styles */
+.submitbutton input {
+   background: rgb(255, 255, 255, 0.75);
+   border: 1px solid white;
+   padding-left: 5vw; padding-right: 5vw; padding-top: 1vh; padding-bottom: 1vh;
+
+}
+
  input, textarea {
     border: 1px solid #ffffff;
     padding: 0.2em;
@@ -41,8 +52,7 @@ form {
     margin-top: 0.5em;
     display: block;
  }
- 
- /* label styles */
+
 label {
     color: white;
     font-size: 1em;

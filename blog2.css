@@ -1,6 +1,6 @@
 /*Blog content ===============================================================*/
 
-.blogbox {
+.blogbox, .blogbox2{
 width: 60vw;
 height: 30vh fit-content;
 padding: 5vh;
@@ -9,6 +9,13 @@ position: relative;
 margin: auto;
 background-color: rgba(44, 48, 56, 0.782);
 }
+
+.blogbox2, .blogbox2 h1 {
+    text-align: center;
+    color: white;
+}
+
+
 
 .emptyspace {
 display: block;

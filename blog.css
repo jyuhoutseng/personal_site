@@ -11,24 +11,6 @@ margin: auto;
 background-color: rgba(44, 48, 56, 0.782);
 }
 
-.emptyspace {
-display: block;
-height: 1vh;
-padding-top: 1vh;
-}
-
-.emptyspacetop {
-display: block;
-height: 12vh;
-padding-top: 1vh;
-}
-
-.emptyspacebottom {
-display: block;
-height: 5vh;
-padding-top: 1vh;
-}
-
 .blogheader {
 font-size: 2.5vh;
 color: white;
@@ -76,9 +58,31 @@ object-fit: contain;
     color: white;
 }
 
+
 .gallery {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
+
+/*empty space containers (used for padding purposes)*/
+
+.emptyspace {
+    display: block;
+    height: 1vh;
+    padding-top: 1vh;
+    }
+    
+.emptyspacetop {
+display: block;
+height: 12vh;
+padding-top: 1vh;
+}
+
+.emptyspacebottom {
+display: block;
+height: 5vh;
+padding-top: 1vh;
+}
+    
